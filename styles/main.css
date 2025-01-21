@@ -21,6 +21,9 @@
   }
   
  /* colors */
+.white{
+    color: #ffffff;
+}
 .orange{
     color: #FEA301;
 }
@@ -38,6 +41,12 @@
 }
 .p-black{
     color: #111111;
+}
+.bg-orange{
+    background-color: #FEA301;
+}
+.bg-black{
+    background-color: #000000;
 }
 body{
     max-width: 1400px;
@@ -66,15 +75,38 @@ body{
 }
 .nav-center > .h2{
      font-size: 1.5em;
+    cursor: pointer;
+}
+.nav-center > .h2:hover{
+    transform: scale(1.1);
 }
 .nav-btn{
     width: 250px;
     height: 80px;
     border-radius: 10px;
-    background-color: #FEA301;
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+.nav-btn:hover{
+    background-color: #000000;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+.banner-btn{
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.banner-btn:hover{
+    background-color: #FEA301;
+    color: #ffffff;
+    transform: scale(1.1);
 }
 .nav-right > .nav-btn > .h1{
     font-size: 2em;
@@ -87,7 +119,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1.5em;
+    gap: 2em;
     max-width: 780px;
 }
 .banner-title{
