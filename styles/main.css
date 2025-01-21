@@ -1,0 +1,98 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-normal {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .quicksand-semi-bold {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: bold;
+  }
+  .quicksand-bold {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: bold;
+  }
+  
+ /* colors */
+.orange{
+    color: #FEA301;
+}
+.sky-blue{
+    color: #01ACFD;
+}
+.vivid-sky-blue{
+    color: #05D4DF;
+}
+.cornflower-blue{
+    color: #5D58EF;
+}
+.white{
+    color: #ffffff;
+}
+.p-black{
+    color: #111111;
+}
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 1em auto;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-left > .h1{
+    font-size: 2em;
+    color: black;
+
+}
+.nav-center{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.nav-center > .h2{
+     font-size: 1.5em;
+}
+.nav-btn{
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #FEA301;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-right > .nav-btn > .h1{
+    font-size: 2em;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    max-width: 780px;
+}
+.banner-title{
+   font-size: 3em;
+}
+.banner-description{
+    font-size: 1.5em;
+}
