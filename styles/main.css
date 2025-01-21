@@ -94,6 +94,25 @@ body{
     color: #ffffff;
     transform: scale(1.1);
 }
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    max-width: 780px;
+}
+.banner-title{
+   font-size: 3em;
+}
+.banner-description{
+    font-size: 1.5em;
+}
+
 .banner-btn{
     width: 250px;
     height: 80px;
@@ -111,20 +130,27 @@ body{
 .nav-right > .nav-btn > .h1{
     font-size: 2em;
 }
-.banner{
-    display: flex;
-    justify-content: space-between;
-}
-.banner-data{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2em;
-    max-width: 780px;
-}
-.banner-title{
-   font-size: 3em;
-}
-.banner-description{
-    font-size: 1.5em;
+
+@media screen and (max-width:600px) {
+    .nav{
+        margin: 10px auto;
+        max-width: 90vw;
+    }
+    body{
+        max-width: 90vw;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-title, .banner-description{
+        text-align: center;
+    }
+    .banner-btn{
+        margin: auto;
+    }
+    .banner-img{
+        margin: auto;
+        margin-bottom: 1em;
+    }
+    
 }
