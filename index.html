@@ -1,54 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css" class="css">
+    <link rel="stylesheet" href="./font-awesome/css/all.min.css">
+    <script src="./scripts/main.js" defer></script>
     <link rel="icon" type="image/x-icon" href="./assets/logo.png">
+
     <title>Kids School</title>
 </head>
+
 <body>
-<header>
-    <nav>
-        <div class="nav">
-        <div class="nav-left">
-            <div class="nav-img">
-                <img src="./assets/logo.png" alt="Logo">
+    <header>
+        <nav>
+            <div class="nav">
+                <div class="nav-left">
+                    <div class="nav-img">
+                        <img src="./assets/logo.png" alt="Logo">
+                    </div>
+                    <div class="h1 quicksand-bold">SCHOOL</div>
+                </div>
+                <div class="nav-center" id="responseNav-right">
+                    <a href="#home" class="quicksand-semi-bold orange">Home</a>
+                    <a href="#about" class="quicksand-semi-bold sky-blue">About</a>
+                    <a href="#facilities" class="quicksand-semi-bold vivid-sky-blue">Facilites</a>
+                    <a href="#admission" class="quicksand-semi-bold cornflower-blue">Admission</a>
+
+                    <!-- <a href="#contact" class="quicksand-semi-bold nav-right nav-btn bg-orange white">Contact</a> -->
+                </div>
+                <div class="nav-right" id="responseNav-right">
+                    <div class="nav-btn bg-orange white">
+                        <div class="h1 quicksand-semi-bold white">Contact</div>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                    </a>
+                </div>
             </div>
-            <div class="h1 quicksand-bold">SCHOOL</div>
-        </div>
-        <div class="nav-center">
-            <div class="h2 quicksand-semi-bold orange">Home</div>
-            <div class="h2 quicksand-semi-bold sky-blue">About</div>
-            <div class="h2 quicksand-semi-bold vivid-sky-blue">Facilities</div>
-            <div class="h2 quicksand-semi-bold cornflower-blue">Admission</div>
-        </div>
-        <div class="nav-right">
-            <div class="nav-btn bg-orange white">
-                <div class="h1 quicksand-semi-bold white">Contact</div>
 
+        </nav>
+        <div class="nav-small-screen-line"></div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-data">
+                <div class="banner-title quicksand-bold"><span class="orange">Empowering</span><br>
+                    students from small<br> age <span class="vivid-sky-blue">towards vision</span></div>
+                <div class="banner-description p-black quicksand-normal">With the courage, Confidence, Creativity and
+                    Compassion to make their Unique Contribution in a Diverse and Dynamic World.</div>
+                <div class="banner-btn bg-black whtie">
+                    <h1><span class="white quicksand-semi-bold">Enroll Now</span></h1>
+                </div>
             </div>
-        </div>
-    </div>
-    </nav>
-</header>
-<main>
-    <section class="banner">
-    <div class="banner-data">
-        <div class="banner-title quicksand-bold"><span class="orange">Empowering</span><br>
-            students from small<br> age <span class="vivid-sky-blue">towards vision</span></div>
-        <div class="banner-description p-black quicksand-normal">With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.</div>
-        <div class="banner-btn bg-black whtie">
-            <h1><span class="white quicksand-semi-bold">Enroll Now</span></h1>
-        </div>
-    </div>
-    <div class="banner-img">
-        <img src="./assets/hero-kids.png" alt="">
-    </div>
-    </section>
+            <div class="banner-img">
+                <img src="./assets/hero-kids.png" alt="">
+            </div>
+        </section>
+        <section class="standard-curriculum">
+            <div class="section-title quicksand-bold">Standard Currciulum</div>
+            <div class="sc-card-group">
+                <div class="standard-curriculum-card bg-grad-vivid-sky border-vivid">
+                    <img src="./assets/kinder.png" alt="Kinder (3-6) Years">
+                    <div class="sc-card-title quicksand-bold">Kinder (3-6) Years</div>
+                    <div class="sc-card-p quicksand-normal">The Kindergarten section of our school provides a nurturing
+                        and playful environment where young learners explore, grow, and develop foundational skills.
+                    </div>
+                    <a href="#">
+                        <div class="sc-card-link quicksand-bold vivid-sky-blue">Read More</div>
+                    </a>
+                </div>
+                <div class="standard-curriculum-card bg-grad-orange border-orange">
+                    <img src="./assets/elementary.png" alt="Elementary School">
+                    <div class="sc-card-title quicksand-bold">Elementary School</div>
+                    <div class="sc-card-p quicksand-normal">Visit our Elementary School section to learn about our
+                        engaging curriculum, where students develop critical thinking, creativity, and teamwork skills.
+                    </div>
+                    <a href="#">
+                        <div class="sc-card-link quicksand-bold orange">Read More</div>
+                    </a>
+                </div>
+                <div class="standard-curriculum-card bg-grad-purple border-purple">
+                    <img src="./assets/middle.png" alt="Middle (10-16) Years">
+                    <div class="sc-card-title quicksand-bold">Middle (10-16) Years</div>
+                    <div class="sc-card-p quicksand-normal">The Middle School program provides a well-rounded education
+                        that covers challenging
+                        coursework across subjects like math, science, language arts, and social studies.
+                    </div>
+                    <a href="#">
+                        <div class="sc-card-link quicksand-bold cornflower-blue">Read More</div>
+                    </a>
+                </div>
+            </div>
+
+        </section>
 
 
-</main>
-    
+    </main>
+
 </body>
+
 </html>
