@@ -243,6 +243,7 @@ body {
     margin: 1em auto;
     font-size: 2em;
     color: #000000;
+    text-align: center;
 }
 .sc-card-p{
     padding:10px;
