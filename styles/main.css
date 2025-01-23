@@ -581,6 +581,12 @@ body {
 .footer-links-data-group > a{
     text-decoration: none;
 }
+.footer-contact-logos > a{
+    text-decoration: none;
+}
+.footer-contact-logos > a:hover{
+    transform: scale(1.2);
+}
 .scroll{
     margin: 0em;
     font-size: 1.8em;
