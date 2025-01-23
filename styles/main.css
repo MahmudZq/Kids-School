@@ -578,7 +578,16 @@ body {
 #only-small-screen-cards{
     min-height: 100px;
 }
-
+.footer-links-data-group > a{
+    text-decoration: none;
+}
+.scroll{
+    margin-top: 2em;
+    font-size: 1.8em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    background-color: #FEA301;
+}
 @media screen and (min-width: 901px) {
     .nav-small-screen-line, #only-small-screen-cards {
         display: none;
@@ -689,19 +698,28 @@ body {
         gap: 3em
      }
      .footer-card{
-      width: 80vw; 
+      width: 92vw; 
     }
     .footer-links{
-        width: 80vw; 
+        width: 92vw; 
         padding-left: 0em;
       }
       .footer-contacts{
-        width: 80vw; 
+        width: 92vw; 
       }
       .footer-group{
-        padding-bottom: 30px;
+        padding-bottom: 0px;
       }
       .story-btn{
-        left: 25%;
+        width:100px;
+        height: 30px;
+        font-size: 0.6em;
+        left: 10%;
+         }
+         .small-story-box-title{
+            font-size: 0.8em;
+         }
+         .story-box{
+            margin-top: -30px;
          }
 }
