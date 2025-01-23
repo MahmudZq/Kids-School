@@ -575,9 +575,12 @@ body {
     padding: 2em;
     color: #000000;
 }
+#only-small-screen-cards{
+    min-height: 100px;
+}
 
 @media screen and (min-width: 901px) {
-    .nav-small-screen-line {
+    .nav-small-screen-line, #only-small-screen-cards {
         display: none;
     }
 }
@@ -679,7 +682,7 @@ body {
         grid-template-columns: repeat(1, 1fr);
     }
     .small-story-group{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
      }
      .footer-group{
         flex-direction: column;
@@ -699,6 +702,6 @@ body {
         padding-bottom: 30px;
       }
       .story-btn{
-        left: 15%;
+        left: 25%;
          }
 }
