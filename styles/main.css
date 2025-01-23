@@ -308,7 +308,7 @@ body {
     margin-top: 4em;
     margin-bottom:4em;
     display: flex;
-    gap:2em;
+    gap:1em;
     justify-content: center;
 }
 .scroll-arrow-circle{
@@ -586,7 +586,8 @@ body {
     font-size: 1.8em;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
-    background-color: #FEA301;
+    background-color: #5D58EF;
+    color: #ffffff;
 }
 @media screen and (min-width: 901px) {
     .nav-small-screen-line, #only-small-screen-cards {
